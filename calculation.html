@@ -1,0 +1,46 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" text="text/css" href="css/kavya.css">
+    <title>Kavya Reddy</title>
+    </head>
+       
+    <body>
+        <div class = "main">
+            <h2>VOLUME OF A CUBE </h2>
+            <p>Type the side of a cube and it'll output the volume of the cube</p>
+            <p>
+                <label>SIDE</label>
+                <input id="f" onkeyup="convert('F')">
+            </p>
+            <p>
+                <label>VOLUME </label> 
+              <input id="c" onkeyup="convert('C')">
+                    
+            </p>
+    
+            <script>
+            function convert(degree) {
+                var x;
+                if (degree == "C") {
+                    x = (document.getElementById("c").value )/3;
+                    document.getElementById("f").value = x;
+                }
+                else{
+                    x = (document.getElementById("f").value )*3 ;
+                document.getElementById("c").value = x;
+                }
+               
+                
+                
+            }
+            
+            </script>
+        </div>
+    
+    </body>
+   

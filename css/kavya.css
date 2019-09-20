@@ -1,0 +1,229 @@
+body {
+    margin:0px;
+    color:white;
+    background: url('naruto.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    height: 1450px;  
+}
+
+.footer {
+    overflow:hidden;
+    background-color: rgb(26, 4, 78, 80);
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 500;
+}
+.footer a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+.footer a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+.navbar {
+    overflow: hidden;
+    background-color: rgb(26, 4, 78, 80);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 500;
+}
+.navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+.navbar a:hover {
+    background: #ddd;
+    color: black;
+}
+
+
+.coolbttn {
+    background-color: DodgerBlue;
+    border-width: 1px;
+    border-color: black;
+    color: white;
+    padding: 12px 16px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 25px;
+    display: inline-block;
+    
+}
+
+.circleImg{
+    border-radius: 50%;
+    float:left;
+    position:relative;
+}
+
+
+.contact{
+    margin: 0px;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: yellowgreen;
+    width : 170px;
+    height: 200px;
+    position:absolute;
+    top:50%;
+    left:95%;
+    margin-top:-50px;   
+    margin-left:-250px;
+}
+
+.languagelist{
+    margin: 0px;
+    padding: 16px;
+    margin-top:10px;
+    border-radius:25px;
+    background-color:yellowgreen;
+    width:200px;
+    position:absolute;
+    top: 50%;
+    left: 25%;
+    margin-top: -70px;
+    margin-left:-250px;
+}
+
+.heroeslist{
+    margin: 0px;
+    padding: 16px;
+    margin-top:10px;
+    border-radius:25px;
+    background-color: yellowgreen;
+    width:200px;
+    position:absolute;
+    top: 650px;
+    left: 25%;
+    margin-top: -50px;
+    margin-left:-250px;
+}
+
+.m{
+    margin: 0px;
+    padding: 16px;
+    margin-top:6px;
+    border-radius:25px;
+    background-color: yellowgreen;
+    width:450px;
+    position:absolute;
+    top: 750px;
+    left: 50%;
+    margin-top: -50px;
+    margin-left:-250px;
+    height: 400px;
+}
+
+table{
+    color: #333;
+    font-family: Helvetica, Arial, sans-serif;
+    width: 300px;
+    
+    border-collapse: collapse; border-spacing: 0; 
+}
+
+td, th {  border: 0 none; height: 30px; }
+        
+th {
+
+    background: linear-gradient(rgb(39, 21, 141) 0%,rgb(18, 172, 126) 100%);
+    color: #FFF; font-weight: bold;
+    height: 40px;
+}
+        
+td { background: #FAFAFA; text-align: center; }
+
+
+        
+tr:nth-child(even) td { background: #EEE; } 
+tr:nth-child(odd) td { background: #FDFDFD; }
+
+
+tr td:first-child, tr th:first-child { 
+    background: none; 
+    font-style: italic;
+    font-weight: bold;
+    font-size: 14px;
+    text-align: right;
+    padding-right: 10px;
+    width: 30px; 
+}
+
+
+tr:first-child th:nth-child(2) { 
+border-radius: 5px 0 0 0; 
+} 
+
+tr:first-child th:last-child { 
+border-radius: 0 5px 0 0; 
+}
+
+
+.main {
+    margin: 0px;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color:rgb(18, 172, 126);
+    width: 450px;
+    position:absolute;
+    top:25%;
+    left:50%;
+    margin-top:-30px;  
+    margin-left:-250px; 
+}
+
+.additionalInfo{
+    margin: 0px;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 20px;
+    background-color: yellowgreen;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top:575px;
+    left:90%;
+    margin-top:-50px;   
+    margin-left:-200px; 
+}
+
+.cat{
+    margin: 0px;
+    padding: 16px;
+    margin-top: 10px;
+    border-radius: 25px;
+    background-color: rgb(146, 64, 146, .85);
+    width: 300px;
+    position:absolute;
+    top:825px;
+    left:90%;
+    margin-top:-50px;   
+    margin-left:-250px; 
+}
+
+#interest{
+    text-align:center;
+}
+
+#aboutme{
+    text-align:center;
+}
