@@ -8,4 +8,8 @@ function convert(degree) {
         x = (document.getElementById("f").value )*3 ;
     document.getElementById("c").value = x;
     }
+    localStorage.setItem("degree",degree)
+    localStorage.getItem("degree",degree)
+    tot=convert(degree)
+    document.getElementById("calculate").innerHTML= tot
 }
