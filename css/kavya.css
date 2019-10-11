@@ -7,15 +7,9 @@ body {
     background-attachment: fixed;
     height: 1450px;  
 }
-.qunit{
-    overflow: hidden;
-    background-color: rgb(26, 4, 78, 80);
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 500;
 
-}
+
+
 .footer {
     overflow:hidden;
     background-color: rgb(26, 4, 78, 80);
