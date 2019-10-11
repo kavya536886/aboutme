@@ -1,7 +1,7 @@
 # about-me
 ## Repository Links
 - [source repository](https://github.com/kavyareddy536886/about-me)
-- [hosted page](https://kavyareddy536886.github.io/about-me/)
+- [hosted page](https://kavyareddy536886.github.io/aboutme/)
 ## About
 This page have information about tools  which are required for publishing a repository with GitHub pages and also the resourses which are useful to learn how to create the web pages.
 ## Recommended Tools
