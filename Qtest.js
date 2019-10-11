@@ -3,7 +3,9 @@ QUnit.module('MAIN MODULE', {})  // group all these tests together
 QUnit.test('TEST convert', assert => {
   assert.equal(convert(2), 6, 'Positive integers')
   assert.equal(convert(-1), -1, 'Negative integers')
-  assert.equal(add(0), 0, 'Mixed')
+  assert.equal(convert(y), NaN, 'Incompatible Type')
+  assert.equal(convert(1.1), 3.3, 'complex values')
+  assert.equal(convert(0), 0, 'Mixed')
 })
 
 QUnit.config.autostart = false  // sync = false; start after loading html
