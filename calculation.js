@@ -12,4 +12,6 @@ function convert(degree) {
     localStorage.getItem("degree",degree)
     tot=convert(degree)
     document.getElementById("calculate").innerHTML= tot
+
+    document.querySelector('#click to convert').addEventListener('onclick', convert)
 }
