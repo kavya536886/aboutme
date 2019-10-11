@@ -13,5 +13,5 @@ function convert(degree) {
     tot=convert(degree)
     document.getElementById("calculate").innerHTML= tot
 
-    document.querySelector('#click to convert').addEventListener('onclick', convert)
+    document.querySelector('#click to convert').addEventListener('onclick', convert('degree'))
 }
